@@ -1,18 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function Login() {
+export default function Profile() {
   return (
     <View style={styles.container}>
       <Text style={{color:"#fff"}}>This is my Login.js Screen !</Text>
       <StatusBar style="auto" />
     </View>
   );
-
-
-
-
-  
 }
 
 const styles = StyleSheet.create({
